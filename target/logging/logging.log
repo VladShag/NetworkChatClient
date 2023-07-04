@@ -1,0 +1,22 @@
+[ INFO ] - ReadThread:30 - New message accepted: {}Vlad connected! is connected!
+[ INFO ] - ReadThread:30 - New message accepted: {}Vlad
+[ INFO ] - WriteThread:42 - Vlad, wrote: hello
+[ INFO ] - ReadThread:30 - New message accepted: {}Vlad: hello
+[ INFO ] - WriteThread:42 - Vlad, wrote: fdsfs
+[ INFO ] - ReadThread:30 - New message accepted: {}Vlad: fdsfs
+[ INFO ] - WriteThread:42 - Vlad, wrote: fsdfs
+[ INFO ] - ReadThread:30 - New message accepted: {}Vlad: fsdfs
+[ INFO ] - WriteThread:39 - Vlad is disconnected! 
+[ INFO ] - ReadThread:30 - New message accepted: Vlad is connected!
+[ INFO ] - ReadThread:30 - New message accepted: Vlad
+[ INFO ] - WriteThread:42 - Vlad wrote: Hello
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: Hello
+[ INFO ] - WriteThread:42 - Vlad wrote: how are you
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: how are you
+[ INFO ] - WriteThread:39 - Vlad is disconnected! 
+[ INFO ] - ReadThread:30 - New message accepted: Vlad is connected!
+[ INFO ] - WriteThread:41 - Vlad wrote: hi
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: hi
+[ INFO ] - WriteThread:41 - Vlad wrote: fdsfs
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: fdsfs
+[ INFO ] - WriteThread:38 - Vlad is disconnected! 
