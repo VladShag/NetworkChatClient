@@ -20,3 +20,11 @@
 [ INFO ] - WriteThread:41 - Vlad wrote: fdsfs
 [ INFO ] - ReadThread:30 - New message accepted: Vlad: fdsfs
 [ INFO ] - WriteThread:38 - Vlad is disconnected! 
+[ INFO ] - ReadThread:30 - New message accepted: Vlad is connected!
+[ INFO ] - WriteThread:41 - Vlad wrote: Hey hey
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: Hey hey
+[ INFO ] - WriteThread:41 - Vlad wrote: Test
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: Test
+[ INFO ] - WriteThread:41 - Vlad wrote: fucker
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: fucker
+[ INFO ] - WriteThread:38 - Vlad is disconnected! 
