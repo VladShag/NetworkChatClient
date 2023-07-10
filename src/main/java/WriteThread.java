@@ -3,6 +3,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.net.Socket;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 public class WriteThread extends Thread{
     private static final Logger logger = LoggerFactory.getLogger(WriteThread.class.getName());
@@ -10,6 +12,7 @@ public class WriteThread extends Thread{
     private Client client;
     private static PrintWriter out;
     private static BufferedReader input;
+    private static final String date = "[" + LocalDateTime.now().truncatedTo(ChronoUnit.SECONDS) + "]";
     public WriteThread(Socket socket, Client client) {
         this.client = client;
         this.socket = socket;
@@ -35,10 +38,10 @@ public class WriteThread extends Thread{
             while (true){
                 text = input.readLine();
                 if(text.equals("exit")) {
-                    logger.info("{} is disconnected! ", client.name);
+                    logger.info("{} {} is disconnected! ",date, client.name);
                     break;
                 } else {
-                    logger.info("{} wrote: {}", client.name, text);
+                    logger.info("{} {} wrote: {}", date, client.name, text);
                     out.println(client.name + ": " + text);
                 }
             }

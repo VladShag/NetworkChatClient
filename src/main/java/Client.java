@@ -12,7 +12,7 @@ public class Client{
         String host = settings.get(0);
         try {
             this.socket = new Socket(host, port);
-        } catch (IOException e) {}
+        } catch (IOException ignored) {}
             new ReadThread(this.socket, this).start();
             new WriteThread(this.socket, this).start();
 

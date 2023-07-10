@@ -28,3 +28,34 @@
 [ INFO ] - WriteThread:41 - Vlad wrote: fucker
 [ INFO ] - ReadThread:30 - New message accepted: Vlad: fucker
 [ INFO ] - WriteThread:38 - Vlad is disconnected! 
+[ INFO ] - ReadThread:30 - New message accepted: Vlad is connected!
+[ INFO ] - WriteThread:41 - Vlad wrote: Hi everyone
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: Hi everyone
+[ INFO ] - WriteThread:41 - Vlad wrote: How are you?
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: How are you?
+[ INFO ] - WriteThread:41 - Vlad wrote: Goodbye
+[ INFO ] - ReadThread:30 - New message accepted: Vlad: Goodbye
+[ INFO ] - WriteThread:38 - Vlad is disconnected! 
+[ INFO ] - ReadThread:33 - [2023-07-10T17:51:24] New message accepted: [[2023-07-10T17:51:24]]Vlad is connected!
+[ INFO ] - WriteThread:44 - [2023-07-10T17:51:25] Vlad wrote: Hello
+[ INFO ] - ReadThread:33 - [2023-07-10T17:51:24] New message accepted: [[2023-07-10T17:51:24]][2023-07-10T17:51:24]Vlad: Hello
+[ INFO ] - WriteThread:44 - [2023-07-10T17:51:25] Vlad wrote: how are you
+[ INFO ] - ReadThread:33 - [2023-07-10T17:51:24] New message accepted: [[2023-07-10T17:51:24]][2023-07-10T17:51:24]Vlad: how are you
+[ INFO ] - WriteThread:44 - [2023-07-10T17:51:25] Vlad wrote: ???
+[ INFO ] - ReadThread:33 - [2023-07-10T17:51:24] New message accepted: [[2023-07-10T17:51:24]][2023-07-10T17:51:24]Vlad: ???
+[ INFO ] - WriteThread:41 - [2023-07-10T17:51:25] Vlad is disconnected! 
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:57:15]Vlad is connected!
+[ INFO ] - WriteThread:44 - [2023-07-10T17:57:15] Vlad wrote: Hi
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:57:15][2023-07-10T17:57:15]Vlad: Hi
+[ INFO ] - WriteThread:44 - [2023-07-10T17:57:15] Vlad wrote: How are you?
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:57:15][2023-07-10T17:57:15]Vlad: How are you?
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:59:22]Vlad is connected!
+[ INFO ] - WriteThread:44 - [2023-07-10T17:59:22] Vlad wrote: Hi
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:59:22]Vlad: Hi
+[ INFO ] - WriteThread:44 - [2023-07-10T17:59:22] Vlad wrote: How are you?
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:59:22]Vlad: How are you?
+[ INFO ] - WriteThread:44 - [2023-07-10T17:59:22] Vlad wrote: NNN
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:59:22]Vlad: NNN
+[ INFO ] - WriteThread:44 - [2023-07-10T17:59:22] Vlad wrote: BBB
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:59:22]Vlad: BBB
+[ INFO ] - WriteThread:41 - [2023-07-10T17:59:22] Vlad is disconnected! 
