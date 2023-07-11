@@ -1,6 +1,8 @@
+package ClientThreads;
+
+import Client.Client;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -17,13 +19,13 @@ public class ReadThread extends Thread {
         try {
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-        } catch (IOException e) {
+        } catch (IOException ignored) {
 
         }
     }
     @Override
     public void run() {
-        while (true) {
+        while (!client.socket.isClosed()) {
             try {
                 String incomeMsg = in.readLine();
                 System.out.println("\n" + incomeMsg);

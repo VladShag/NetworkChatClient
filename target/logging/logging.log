@@ -59,3 +59,13 @@
 [ INFO ] - WriteThread:44 - [2023-07-10T17:59:22] Vlad wrote: BBB
 [ INFO ] - ReadThread:30 - New message accepted: [2023-07-10T17:59:22]Vlad: BBB
 [ INFO ] - WriteThread:41 - [2023-07-10T17:59:22] Vlad is disconnected! 
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-11T09:34:08]vl is connected!
+[ INFO ] - WriteThread:44 - [2023-07-11T09:34:08] vl wrote: dsad
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-11T09:34:08]vl: dsad
+[ INFO ] - WriteThread:41 - [2023-07-11T09:34:08] vl is disconnected! 
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-11T09:34:08]fff is connected!
+[ INFO ] - WriteThread:44 - [2023-07-11T09:35:09] fff wrote: fdsf
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-11T09:34:08]fff: fdsf
+[ INFO ] - WriteThread:44 - [2023-07-11T09:35:09] fff wrote: fsd
+[ INFO ] - ReadThread:30 - New message accepted: [2023-07-11T09:34:08]fff: fsd
+[ INFO ] - WriteThread:41 - [2023-07-11T09:35:09] fff is disconnected! 

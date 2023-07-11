@@ -1,3 +1,6 @@
+package ClientThreads;
+
+import Client.Client;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,7 +23,7 @@ public class WriteThread extends Thread{
             OutputStream output = socket.getOutputStream();
             out = new PrintWriter(output, true);
             input = new BufferedReader(new InputStreamReader(System.in));
-        } catch (IOException e) {}
+        } catch (IOException ignored) {}
     }
     @Override
     public void run() {
@@ -45,12 +48,12 @@ public class WriteThread extends Thread{
                     out.println(client.name + ": " + text);
                 }
             }
-        } catch (IOException e) {
+        } catch (IOException ignored) {
 
         } finally {
             try {
-                socket.close();
-            } catch (IOException e) {}
+                client.socket.close();
+            } catch (IOException ignored) {}
         }
 
 

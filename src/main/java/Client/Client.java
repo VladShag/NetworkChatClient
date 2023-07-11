@@ -1,3 +1,8 @@
+package Client;
+
+import ClientThreads.ReadThread;
+import ClientThreads.WriteThread;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
